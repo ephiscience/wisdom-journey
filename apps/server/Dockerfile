@@ -1,4 +1,4 @@
-FROM node:24-alpine AS base
+FROM node:24.22.1-alpine AS base
 
 # Installs the production dependencies of the server from the workspace
 # lockfile. Only the manifests are needed: the app itself is compiled
